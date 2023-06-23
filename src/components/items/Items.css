@@ -1,0 +1,9 @@
+#heading{
+    color: rgb(47, 204, 224);
+    text-align: center;
+
+}
+.card:hover{
+
+    box-shadow: rgb(47, 204, 224) 0px 5px 15px;
+}

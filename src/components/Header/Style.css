@@ -1,0 +1,69 @@
+@media only screen and (max-width: 991px) {
+    #profileIcon {
+        color: rgb(126, 209, 248);
+        font-size: 50px;
+        color: rgb(50, 207, 255);
+
+
+
+    }
+
+    #cartIcon {
+        color: rgb(126, 209, 248);
+        font-size: 50px;
+        margin-top: -90px;
+        margin-left: 40px;
+
+    }
+}
+
+#Navber-color {
+    position: sticky;
+    top: 0;
+
+}
+
+@media only screen and (min-width: 992px) {
+    #logo {
+        margin-top: -21px;
+        color: red;
+    }
+
+    #listItems li a {
+        margin-left: 30px;
+    }
+
+    #Navber-color {
+        color: rgb(252, 253, 253);
+        background: lightskyblue;
+
+
+    }
+
+    #Navber-color:hover {
+        color: blueviolet;
+    }
+
+    #profileIcon {
+        color: white;
+        font-size: 50px;
+        margin-top: -27px;
+
+
+    }
+
+    #cartIcon {
+        color: white;
+        font-size: 50px;
+        margin-top: -28px;
+
+    }
+
+    #searchBar {
+        margin-top: -25px;
+        /* margin-left: 80px; */
+        /* padding-left: 80px; */
+        width: 370px;
+    }
+
+}

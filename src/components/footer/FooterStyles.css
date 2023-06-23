@@ -1,0 +1,19 @@
+#div{
+	color: white;
+}
+
+#div:hover{
+	color:rgb(47, 204, 224);
+}
+.a>li{
+margin-left: 20px;
+}
+#address{
+	text-align: justify;
+}
+#footerContent>div>p>a{
+	cursor: pointer;
+}
+#footerContent>div>a{
+	cursor: pointer;
+}

@@ -1,0 +1,139 @@
+@media only screen and (max-width: 600px) {
+    /* img {
+        width:'200px';
+        height: '250px';
+    } */
+}
+
+.btn {
+    display: inline-flex;
+    flex-wrap: wrap;
+    border: none;
+
+}
+
+.btn>button {
+    margin: 12px;
+    border-style: solid;
+    background-color: white;
+    border-radius: 10px;
+    width: 90px;
+    height: 50px;
+}
+
+.btn>button:hover {
+    background-color: lightskyblue;
+
+}
+
+.btncb {
+    padding: 30px;
+}
+
+/* .btncb >button{
+    margin: 12px;
+    border-style:  solid;
+    border-radius: 10px;
+    width: 130px;
+    height: 60px;
+   
+
+} */
+.btnCard {
+    background-color: #fffa00;
+    margin-left: 10px;
+    width: 130px;
+    height: 60px;
+    border-radius: 9px;
+}
+
+.btnCard:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    border: none;
+}
+
+.btnBuy {
+    background-color: rgb(255, 165, 0);
+    margin-left: 30px;
+    width: 130px;
+    height: 60px;
+    border-radius: 9px;
+}
+
+.btnBuy:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    border: none;
+}
+
+.BuyForm {
+    width: 600px;
+    height: auto;
+    border: 1px solid black;
+    padding: 40px;
+    border-radius: 20px;
+    margin-left: 370px;
+    margin-top: 20px;
+}
+
+.BuyForm:hover {
+    border: none;
+    box-shadow: rgb(126, 209, 248) 0px 5px 15px;
+}
+.Offer{
+    list-style-type: none;
+}
+.share-options{
+    position: relative;
+    bottom: 50%;
+    left: 50%;
+    top: 0px;
+    width: 300px;
+    height: 250px;
+    transform-origin: bottom left;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background: rgba(15, 15, 15, 0.5);
+    color: #fff;
+    padding: 20px;
+    font-family: 'roboto';
+    transition: .5s;
+    transition-delay: .5s;
+}
+.title{
+    font-size:20px;
+    text-transform: capitalize;
+    border-bottom: 1px solid #fff;
+    width: fit-content;
+    padding: 0 20px 3px 0;
+}
+/* .social-media{ */
+    /* margin-top: 10px;
+    width: 250px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 10px 0; */
+/* } */
+.social-media-btn{
+    border: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 90px;
+    background: black;
+    color: #fff;
+    line-height: 50px;
+    font-size: 25px;
+    margin: 0 5px;
+    text-align: center;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+table.show-my-request-table td:first-child {
+    color: rgb(15, 188, 194);
+}
+.BoxDescription{
+    margin-left:9em;
+}
